@@ -1,0 +1,9 @@
+[app]
+port = "8080"
+name = "consul-webhook"
+env = "dev"
+
+[consul]
+address="172.18.69.64:8500"
+scheme="http"
+token = "token"
